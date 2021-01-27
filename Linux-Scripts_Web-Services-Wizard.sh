@@ -16,7 +16,7 @@ function confirmation {
 	echo "Begin the installation/continue with the next stage? [y/N]"
 	read decision
 	
-	if [ $decision -eq "y" ] || [ $decision -eq "Y" ] ; then
+	if [ $decision="y" ] || [ $decision="Y" ] ; then
 		echo "Continuing install"
 		echo ""
 	else
